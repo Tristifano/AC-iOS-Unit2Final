@@ -12,6 +12,8 @@
 		C5E24D671FB2392D00578931 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5E24D661FB2392D00578931 /* Assets.xcassets */; };
 		C5E24D6A1FB2392D00578931 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5E24D681FB2392D00578931 /* LaunchScreen.storyboard */; };
 		C5E24D721FB2395900578931 /* Crayon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E24D711FB2395900578931 /* Crayon.swift */; };
+		FACEC7951FB5FBAC00621222 /* CrayonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACEC7941FB5FBAC00621222 /* CrayonViewController.swift */; };
+		FACEC7981FB5FBDC00621222 /* CrayonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACEC7971FB5FBDC00621222 /* CrayonDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C5E24D691FB2392D00578931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5E24D6B1FB2392D00578931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5E24D711FB2395900578931 /* Crayon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crayon.swift; sourceTree = "<group>"; };
+		FACEC7941FB5FBAC00621222 /* CrayonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrayonViewController.swift; sourceTree = "<group>"; };
+		FACEC7971FB5FBDC00621222 /* CrayonDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrayonDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		C5E24D5E1FB2392D00578931 /* AC-iOS-Unit2Final */ = {
 			isa = PBXGroup;
 			children = (
+				FACEC7961FB5FBB100621222 /* View Controllers */,
 				C5E24D741FB23F8500578931 /* Models */,
 				C5E24D731FB23F6D00578931 /* Supporting Files */,
 				C5E24D6B1FB2392D00578931 /* Info.plist */,
@@ -78,6 +83,15 @@
 				C5E24D711FB2395900578931 /* Crayon.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		FACEC7961FB5FBB100621222 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FACEC7941FB5FBAC00621222 /* CrayonViewController.swift */,
+				FACEC7971FB5FBDC00621222 /* CrayonDetailViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +168,8 @@
 			files = (
 				C5E24D601FB2392D00578931 /* AppDelegate.swift in Sources */,
 				C5E24D721FB2395900578931 /* Crayon.swift in Sources */,
+				FACEC7981FB5FBDC00621222 /* CrayonDetailViewController.swift in Sources */,
+				FACEC7951FB5FBAC00621222 /* CrayonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
